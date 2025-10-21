@@ -1,7 +1,7 @@
 # Amazon-data-analysis-Project(interactive creation using Power bi)
 ## Project objective
 This project involves the analysis of Amazon sales and delivery data visualized in a dashboard format, likely built using Power BI. The dashboard provides a high-level overview of key operational and sales metrics, enabling stakeholders to monitor performance, identify trends, and make data-driven decisions regarding sales, logistics, and geographic performance. The primary objective is to gain insights into sales efficiency, delivery performance, and geographical distribution of sales.
-## Dataset used
+## Dataset used  
 -<a href="https://github.com/anasmummar-702/Data-analysis-dashboards/blob/main/Amazon%20Data.xlsx">Amazon Data</a>
 ## Questtions(KPIs)
 
@@ -28,15 +28,15 @@ This project involves the analysis of Amazon sales and delivery data visualized 
 ## Dashboard intractions 
 -<a href="https://github.com/anasmummar-702/Data-analysis-dashboards/blob/main/Screenshot%202025-10-21%20162433.png">View Dashboard</a>
 
-# Process
+## Process
 
-## Data Acquisition & Connection:
+### Data Acquisition & Connection:
 
 Identify and connect to the raw data sources (e.g., Amazon sales logs, fulfillment tables, delivery tracking data).
 
 Step: Connect Power BI to the underlying data source(s).
 
-## Data Cleaning & Transformation (ETL):
+### Data Cleaning & Transformation (ETL):
 
 Clean the data (e.g., handle missing values, correct data types, remove duplicates).
 
@@ -44,19 +44,19 @@ Transform the data (e.g., create calculated columns or measures like the total "
 
 Step: Use Power Query Editor to shape and refine the raw data.
 
-## Data Modeling & Relationships:
+### Data Modeling & Relationships:
 
 Establish relationships between different data tables (e.g., Sales table linked to Fulfillment table by Order ID).
 
 Step: Use the 'Manage relationships' and 'Modeling' tools to create a robust data model.
 
-## Measure and Calculation Creation:
+### Measure and Calculation Creation:
 
 Develop the necessary calculated fields or measures (e.g., Total Sales, fulfillment rates, top categories) using DAX (Data Analysis Expressions).
 
 Step: Use the 'New measure' and 'New column' features under the 'Home' or 'Modeling' tabs.
 
-## Visualization Design & Dashboard Creation:
+### Visualization Design & Dashboard Creation:
 
 Select appropriate visualization types (bar charts, donut charts, KPI cards) to represent the KPIs effectively.
 
@@ -64,7 +64,16 @@ Build the dashboard layout, applying a consistent design theme (e.g., the dark b
 
 Step: Drag and drop fields onto the canvas and select visualization types from the 'Visualizations' pane.
 
-# Data used
--<a href="https://github.com/anasmummar-702/Data-analysis-dashboards/blob/main/Amazon%20Data.xlsx">data</a>
+## Dashboard
+<img width="1920" height="1080" alt="Screenshot 2025-10-21 162433" src="https://github.com/user-attachments/assets/c94b4797-b1d3-4e64-8b5e-996305d21910" />
+
+## Insights
+-Sales Concentration: Sales are heavily concentrated both by product (Top 5 Category) and geography (Top 10 States), indicating clear high-leverage areas for investment.
+
+-Logistics Complexity: Management requires continuous monitoring of multiple Delivery Partner SLAs to maintain delivery quality and optimize costs.
+
+-Operational Health: The high Sales Amount ($11.67M) combined with the status of Fulfillment and Courier Status metrics provides an immediate health check on the supply chain.
 
 
+## Conclution
+The Amazon Analysis Dashboard is a successful implementation of a data-to-insight tool. It delivers a clear, centralized view of sales and operational performance. The immediate actionable takeaway is the need for a dual focus: optimizing inventory and marketing for the Top 5 Categories while streamlining logistics to better serve the Top 10 States. This dashboard is a critical asset for ongoing performance monitoring and strategic decision-making
