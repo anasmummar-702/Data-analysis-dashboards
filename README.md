@@ -65,7 +65,8 @@ Build the dashboard layout, applying a consistent design theme (e.g., the dark b
 Step: Drag and drop fields onto the canvas and select visualization types from the 'Visualizations' pane.
 
 ## Dashboard
-<img width="1920" height="1080" alt="Screenshot 2025-10-21 162433" src="https://github.com/user-attachments/assets/c94b4797-b1d3-4e64-8b5e-996305d21910" />
+<img width="513" height="665" alt="Screenshot 2025-10-21 175141" src="https://github.com/user-attachments/assets/eb9d59f8-6a35-42c2-abf3-bbdd297e5cb3" />
+
 
 ## Insights
 -Sales Concentration: Sales are heavily concentrated both by product (Top 5 Category) and geography (Top 10 States), indicating clear high-leverage areas for investment.
